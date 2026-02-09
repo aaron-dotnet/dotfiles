@@ -164,4 +164,3 @@ export PATH=$HOME/.local/bin:$PATH
 
 . "$HOME/.cargo/env"
 
-export mail="some@mail.com"
