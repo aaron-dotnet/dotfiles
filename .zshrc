@@ -164,3 +164,8 @@ export PATH=$HOME/.local/bin:$PATH
 
 . "$HOME/.cargo/env"
 
+# xclip
+# copy output to clipboard
+
+alias xcopy='xclip -selection clipboard'
+alias xpaste='xclip -selection clipboard -o'
