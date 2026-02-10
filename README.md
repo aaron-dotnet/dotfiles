@@ -7,4 +7,5 @@ just my custom dotfiles
 - zshrc
 
 > [!NOTE]
-> Some alias need extra dependencies to work.
+> Some alias or commands need extra dependencies to work.
+
