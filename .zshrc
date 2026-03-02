@@ -149,6 +149,8 @@ alias fedora-version='cat /etc/fedora-release'
 #export DOTNET_ROOT=$HOME/.dotnet
 #export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 
+export NAME="Mr. P1nk"
+
 ## zoxide
 eval "$(zoxide init zsh)"
 
@@ -164,8 +166,16 @@ export PATH=$HOME/.local/bin:$PATH
 
 . "$HOME/.cargo/env"
 
+
 # xclip
 # copy output to clipboard
 
 alias xcopy='xclip -selection clipboard'
 alias xpaste='xclip -selection clipboard -o'
+
+## System Updates
+alias dnfup='sudo dnf upgrade'
+alias flatup='flatpak update'
+
+## Uninstall
+alias flatrm='flatpak uninstall --delete-data --force-remove --assumeyes --verbose'
