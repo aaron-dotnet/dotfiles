@@ -84,6 +84,7 @@ zsh-syntax-highlighting
 zsh-autosuggestions
 )
 
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -118,8 +119,6 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-
-
 ## python
 alias py='python3'
 alias pysource='source ./.venv/bin/activate'
@@ -139,9 +138,6 @@ mkvenv() {
     fi
 }
 
-## spotify
-#alias spo='flatpak run io.github.hrkfdn.ncspot'
-
 ## Fedora release
 alias fedora-version='cat /etc/fedora-release'
 
@@ -149,22 +145,21 @@ alias fedora-version='cat /etc/fedora-release'
 #export DOTNET_ROOT=$HOME/.dotnet
 #export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 
-export NAME="Mr. P1nk"
-
 ## zoxide
 eval "$(zoxide init zsh)"
 
 # open files/url from default app
-function open () {
-  xdg-open "$@">/dev/null 2>&1
-}
+#function open () {
+#  xdg-open "$@">/dev/null 2>&1
+#}
 
 # opencode
-export PATH=/home/p1nk/.opencode/bin:$PATH
+#export PATH=/home/p1nk/.opencode/bin:$PATH
 #export opencode="$HOME/.opencode/bin/opencode" 
-export PATH=$HOME/.local/bin:$PATH
 
-. "$HOME/.cargo/env"
+#export PATH=$HOME/.local/bin:$PATH
+#
+#. "$HOME/.cargo/env"
 
 
 # xclip
